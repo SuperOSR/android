@@ -16,7 +16,7 @@
            sync-c="true"
            sync-j="4" />
 
-  <project path="build" name="SuperOSR/android_build" remote="github" revision="cm-10.1">
+  <project path="build" name="SuperOSR/android_build" remote="github" revision="jellybean">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
