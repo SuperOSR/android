@@ -16,10 +16,6 @@
            sync-c="true"
            sync-j="4" />
 
-  <project path="build" name="SuperOSR/android_build" remote="github" revision="jellybean">
-    <copyfile src="core/root.mk" dest="Makefile" />
-  </project>
-
   <project path="android" name="SuperOSR/android" remote="github" revision="jellybean" />
 
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" />
@@ -373,4 +369,25 @@
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="CyanogenMod/android_vendor_tmobile_libs_com.tmobile.themes" />
   <project path="vendor/tmobile/providers/ThemeManager" name="CyanogenMod/android_vendor_tmobile_providers_ThemeManager" />
   <project path="vendor/tmobile/products/themes" name="CyanogenMod/android_vendor_tmobile_products_themes" />
+
+<!-- SuperTe@m -->
+  <project path="build" name="SuperOSR/android_build" remote="github" revision="jellybean">
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
+
+<!-- Apps
+  <project path="frameworks/base" name="SuperJB/android_frameworks_base" remote="github" revision="jellybean" />
+  <project path="packages/apps/ContactsWidgets" name="SuperJB/android_packages_apps_ContactsWidgets" remote="github" revision="jellybean" />
+  <project path="packages/apps/FileExplorer" name="SuperJB/android_packages_apps_FileExplorer" remote="github" revision="jellybean" />
+  <project path="packages/apps/Notes" name="SuperJB/android_packages_apps_Notes" remote="github" revision="jellybean" />
+  <project path="packages/apps/ROMControl" name="SuperJB/android_packages_apps_ROMControl" remote="github" revision="jellybean" />
+  <project path="packages/apps/Settings" name="SuperJB/android_packages_apps_Settings" remote="github" revision="jellybean" />
+  <project path="packages/apps/SoundRecorder2" name="SuperJB/android_packages_apps_SoundRecorder2" remote="github" revision="jellybean" />
+  <project path="packages/apps/Wallpapers" name="SuperJB/android_packages_apps_Wallpapers" remote="github" revision="jellybean" />-->
+
+<!-- Vendor -->
+	<!--Common -->
+  <project path="vendor/osr" name="SuperJB-Vendor/android_vendor_osr" remote="github" revision="jellybean" />
+  <project path="vendor/google" name="SuperJB-Vendor/android_vendor_google" remote="github" revision="jellybean" />
+</manifest>
 </manifest>
