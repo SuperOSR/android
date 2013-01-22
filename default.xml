@@ -387,6 +387,6 @@
 
 <!-- Vendor -->
 	<!--Common -->
-  <project path="vendor/osr" name="SuperJB-Vendor/android_vendor_osr" remote="github" revision="jellybean" />
-  <project path="vendor/google" name="SuperJB-Vendor/android_vendor_google" remote="github" revision="jellybean" />
+  <project path="vendor/osr" name="SuperOSR/android_vendor_osr" remote="github" revision="jellybean" />
+  <project path="vendor/google" name="SuperOSR/android_vendor_google" remote="github" revision="jellybean" />
 </manifest>
