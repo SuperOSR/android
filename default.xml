@@ -295,7 +295,7 @@
   <project path="packages/apps/Protips" name="CyanogenMod/android_packages_apps_Protips" />
   <project path="packages/apps/Provision" name="CyanogenMod/android_packages_apps_Provision" />
   <project path="packages/apps/QuickSearchBox" name="CyanogenMod/android_packages_apps_QuickSearchBox" />
-  <project path="packages/apps/Settings" name="CyanogenMod/android_packages_apps_Settings" />
+  <!--<project path="packages/apps/Settings" name="CyanogenMod/android_packages_apps_Settings" />-->
   <project path="packages/apps/SmartCardService" name="CyanogenMod/android_packages_apps_SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="CyanogenMod/android_packages_apps_SoundRecorder" />
   <project path="packages/apps/SpareParts" name="CyanogenMod/android_packages_apps_SpareParts" />
@@ -375,15 +375,16 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-<!-- Apps
+<!-- Apps -->
+  <project path="packages/apps/Notes" name="SuperOSR/android_packages_apps_Notes" remote="github" revision="jellybean" />
+  <project path="packages/apps/Settings" name="SuperOSR/android_packages_apps_Settings" remote="github" revision="jellybean" />
+  <project path="packages/apps/SoundRecorder2" name="SuperOSR/android_packages_apps_SoundRecorder2" remote="github" revision="jellybean" />
+  <project path="packages/apps/Wallpapers" name="SuperOSR/android_packages_apps_Wallpapers" remote="github" revision="jellybean" />
+<!--
   <project path="frameworks/base" name="SuperJB/android_frameworks_base" remote="github" revision="jellybean" />
   <project path="packages/apps/ContactsWidgets" name="SuperJB/android_packages_apps_ContactsWidgets" remote="github" revision="jellybean" />
   <project path="packages/apps/FileExplorer" name="SuperJB/android_packages_apps_FileExplorer" remote="github" revision="jellybean" />
-  <project path="packages/apps/Notes" name="SuperJB/android_packages_apps_Notes" remote="github" revision="jellybean" />
-  <project path="packages/apps/ROMControl" name="SuperJB/android_packages_apps_ROMControl" remote="github" revision="jellybean" />
-  <project path="packages/apps/Settings" name="SuperJB/android_packages_apps_Settings" remote="github" revision="jellybean" />
-  <project path="packages/apps/SoundRecorder2" name="SuperJB/android_packages_apps_SoundRecorder2" remote="github" revision="jellybean" />
-  <project path="packages/apps/Wallpapers" name="SuperJB/android_packages_apps_Wallpapers" remote="github" revision="jellybean" />-->
+  <project path="packages/apps/ROMControl" name="SuperJB/android_packages_apps_ROMControl" remote="github" revision="jellybean" />-->
 
 <!-- Vendor -->
 	<!--Common -->
