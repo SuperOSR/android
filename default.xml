@@ -377,7 +377,7 @@
 
 <!-- Apps -->
   <project path="packages/apps/Notes" name="SuperOSR/android_packages_apps_Notes" remote="github" revision="jellybean" />
-  <project path="packages/apps/Settings" name="SuperOSR/android_packages_apps_Settings" remote="github" revision="jellybean" />
+  <project path="packages/apps/Settings" name="SuperOSR/android_packages_apps_Settings" remote="github" revision="cm-10.1" />
   <project path="packages/apps/SoundRecorder2" name="SuperOSR/android_packages_apps_SoundRecorder2" remote="github" revision="jellybean" />
   <project path="packages/apps/Wallpapers" name="SuperOSR/android_packages_apps_Wallpapers" remote="github" revision="jellybean" />
 <!--
