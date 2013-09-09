@@ -4,10 +4,16 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com" />
-
+           
+  <!-- Generic github remote -->
   <remote  name="github"
-           fetch=".."
-           review="review.cyanogenmod.org" />
+           fetch="https://github.com" />
+           
+  <remote  name="osr"
+           fetch="https://github.com/SuperOSR" />
+           
+  <remote  name="cm"
+           fetch="https://github.com/CyanogenMod" />
 
   <remote  name="private"
            fetch="ssh://git@github.com" />
@@ -21,7 +27,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <project path="android" name="CyanogenMod/android" />
+  <project path="android" name="SuperOSR/android" revision="jb43" />
 
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
   <project path="bionic" name="CyanogenMod/android_bionic" groups="pdk" />
@@ -298,6 +304,7 @@
   <project path="packages/apps/Apollo" name="CyanogenMod/android_packages_apps_Apollo" />
   <project path="packages/apps/BasicSmsReceiver" name="CyanogenMod/android_packages_apps_BasicSmsReceiver" />
   <project path="packages/apps/Bluetooth" name="CyanogenMod/android_packages_apps_Bluetooth" />
+  <project path="packages/apps/BluetoothExt" name="CyanogenMod/android_packages_apps_BluetoothExt" />
   <project path="packages/apps/Browser" name="CyanogenMod/android_packages_apps_Browser" />
   <project path="packages/apps/Calculator" name="CyanogenMod/android_packages_apps_Calculator" />
   <project path="packages/apps/Calendar" name="CyanogenMod/android_packages_apps_Calendar" />
