@@ -3,5 +3,5 @@
 <!-- Only include here the device repository definitions
      Other dependencies should be defined in the cm.dependencies file
 -->
-<project path="device/samsung/i9300" name="SuperOSR/android_device_samsung_i9300" remote="github" revision="jellybean" />
+<project path="device/samsung/i9300" name="SuperOSR/android_device_samsung_jfltexx" remote="github" revision="jb43" />
 </manifest>
