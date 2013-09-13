@@ -427,6 +427,13 @@
   <project path="build" name="SuperOSR/android_build" remote="github" revision="jb43">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
+
+<!-- Apps -->
+  <project path="packages/apps/Notes" name="SuperOSR/android_packages_apps_Notes" remote="github" revision="jb43" />
+  <project path="packages/apps/Settings" name="SuperOSR/android_packages_apps_Settings" remote="github" revision="jb43" />
+  <project path="packages/apps/SoundRecorder2" name="SuperOSR/android_packages_apps_SoundRecorder2" remote="github" revision="jb43" />
+  <project path="packages/apps/Wallpapers" name="SuperOSR/android_packages_apps_Wallpapers" remote="github" revision="jb43" />
+
 <!-- Vendor -->
 	<!--Common -->
   <project path="vendor/osr" name="SuperOSR/android_vendor_osr" remote="github" revision="jb43" />
