@@ -4,4 +4,5 @@
      Other dependencies should be defined in the cm.dependencies file
 -->
 <project path="device/samsung/jfltexx" name="SuperOSR/android_device_samsung_jfltexx" remote="github" revision="jb43" />
+<project path="device/lge/mako" name="SuperOSR/android_device_lge_mako" remote="github" revision="jb43" />
 </manifest>
