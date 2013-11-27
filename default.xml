@@ -438,5 +438,7 @@
   <!-- Vendor -->
 	<!--Common -->
   <project path="vendor/osr" name="SuperOSR/android_vendor_osr" remote="github" revision="jb43" />
+  <project path="device/unusual/u10z" name="SuperOSR/android_device_unusual_u10z" remote="github" revision="kk44" />
+  <project path="device/unusual/sun6i-common" name="SuperOSR/android_device_unusual_sun6i-common" remote="github" revision="kk44" />
 
 </manifest>
