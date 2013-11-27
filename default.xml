@@ -352,7 +352,7 @@
   <project path="packages/providers/CalendarProvider" name="SuperOSR/android_packages_providers_CalendarProvider" />
   <project path="packages/providers/ContactsProvider" name="SuperOSR/android_packages_providers_ContactsProvider" remote="github" revision="kk44"/>
   <project path="packages/providers/DownloadProvider" name="SuperOSR/android_packages_providers_DownloadProvider" remote="github" revision="kk44"/>
-  <project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" remote="github" revision="kk44"/>
+  <project path="packages/providers/MediaProvider" name="SuperOSR/android_packages_providers_MediaProvider" remote="github" revision="kk44"/>
   <project path="packages/providers/PartnerBookmarksProvider" name="platform/packages/providers/PartnerBookmarksProvider" />
   <project path="packages/providers/TelephonyProvider" name="platform/packages/providers/TelephonyProvider" />
   <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" />
